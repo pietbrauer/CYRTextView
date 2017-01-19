@@ -11,10 +11,10 @@
 		23E824221E31751D00ECC2B2 /* CYRLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E824181E31751D00ECC2B2 /* CYRLayoutManager.m */; };
 		23E824231E31751D00ECC2B2 /* CYRTextStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E824191E31751D00ECC2B2 /* CYRTextStorage.h */; };
 		23E824241E31751D00ECC2B2 /* CYRTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E8241A1E31751D00ECC2B2 /* CYRTextStorage.m */; };
-		23E824251E31751D00ECC2B2 /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241B1E31751D00ECC2B2 /* CYRTextView.h */; };
+		23E824251E31751D00ECC2B2 /* CYRTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241B1E31751D00ECC2B2 /* CYRTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23E824261E31751D00ECC2B2 /* CYRTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E8241C1E31751D00ECC2B2 /* CYRTextView.m */; };
-		23E824271E31751D00ECC2B2 /* CYRTextViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241D1E31751D00ECC2B2 /* CYRTextViewKit.h */; };
-		23E824281E31751D00ECC2B2 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241E1E31751D00ECC2B2 /* CYRToken.h */; };
+		23E824271E31751D00ECC2B2 /* CYRTextViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241D1E31751D00ECC2B2 /* CYRTextViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E824281E31751D00ECC2B2 /* CYRToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E8241E1E31751D00ECC2B2 /* CYRToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23E824291E31751D00ECC2B2 /* CYRToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E8241F1E31751D00ECC2B2 /* CYRToken.m */; };
 		23E8242A1E31751D00ECC2B2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23E824201E31751D00ECC2B2 /* Info.plist */; };
 /* End PBXBuildFile section */
@@ -84,11 +84,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23E824281E31751D00ECC2B2 /* CYRToken.h in Headers */,
 				23E824271E31751D00ECC2B2 /* CYRTextViewKit.h in Headers */,
+				23E824281E31751D00ECC2B2 /* CYRToken.h in Headers */,
+				23E824251E31751D00ECC2B2 /* CYRTextView.h in Headers */,
 				23E824231E31751D00ECC2B2 /* CYRTextStorage.h in Headers */,
 				23E824211E31751D00ECC2B2 /* CYRLayoutManager.h in Headers */,
-				23E824251E31751D00ECC2B2 /* CYRTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
