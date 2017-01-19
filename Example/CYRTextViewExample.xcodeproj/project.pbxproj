@@ -24,7 +24,6 @@
 		39BE428A1880FDA9002BE6FF /* QEDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42891880FDA9002BE6FF /* QEDTextView.m */; };
 		DA0C0E701C44214F001EA3FA /* CYRTextViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0C0E6F1C44214F001EA3FA /* CYRTextViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA0C0E771C44214F001EA3FA /* CYRTextViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0C0E6D1C44214F001EA3FA /* CYRTextViewKit.framework */; };
-		DA0C0E7E1C44214F001EA3FA /* CYRTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C0E7D1C44214F001EA3FA /* CYRTextViewTests.swift */; };
 		DA0C0E821C44214F001EA3FA /* CYRTextViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0C0E6D1C44214F001EA3FA /* CYRTextViewKit.framework */; };
 		DA0C0E831C44214F001EA3FA /* CYRTextViewKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DA0C0E6D1C44214F001EA3FA /* CYRTextViewKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DA0C0E8B1C44215D001EA3FA /* CYRLayoutManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 39395411187A6AFE00A19DEC /* CYRLayoutManager.h */; };
@@ -117,7 +116,6 @@
 		DA0C0E6F1C44214F001EA3FA /* CYRTextViewKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CYRTextViewKit.h; sourceTree = "<group>"; };
 		DA0C0E711C44214F001EA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0C0E761C44214F001EA3FA /* CYRTextViewKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYRTextViewKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0C0E7D1C44214F001EA3FA /* CYRTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CYRTextViewTests.swift; path = ../CYRTextViewKitTests/CYRTextViewTests.swift; sourceTree = "<group>"; };
 		DA0C0E7F1C44214F001EA3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../CYRTextViewKitTests/Info.plist; sourceTree = "<group>"; };
 		DA0C0E931C4437B9001EA3FA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -264,7 +262,6 @@
 		DA0C0E7C1C44214F001EA3FA /* CYRTextViewKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA0C0E7D1C44214F001EA3FA /* CYRTextViewTests.swift */,
 				DA0C0E7F1C44214F001EA3FA /* Info.plist */,
 			);
 			name = CYRTextViewKitTests;
@@ -476,7 +473,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0C0E7E1C44214F001EA3FA /* CYRTextViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,6 +797,7 @@
 				DA0C0E861C44214F001EA3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA0C0E881C44214F001EA3FA /* Build configuration list for PBXNativeTarget "CYRTextViewKitTests" */ = {
 			isa = XCConfigurationList;
@@ -809,6 +806,7 @@
 				DA0C0E8A1C44214F001EA3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
