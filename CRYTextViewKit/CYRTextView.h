@@ -42,6 +42,8 @@
 
 @interface CYRTextView : UITextView
 
+- (instancetype)initWithFrame:(CGRect)frame;
+
 @property (nonatomic, strong) NSArray <CYRToken *> *tokens;
 @property (nonatomic, strong) UIPanGestureRecognizer *singleFingerPanRecognizer;
 @property (nonatomic, strong) UIPanGestureRecognizer *doubleFingerPanRecognizer;
